@@ -18,7 +18,10 @@ Landing Page of App
 ![Retail_Landing_page_part_2](https://user-images.githubusercontent.com/40518603/112862454-66ac5000-90d3-11eb-85c9-861f9e9ec7d7.png)
 
  
+ 
 Prediction 
+
+
 The prediction is at the bottom of the screen: The customer will again buy goods from the store
 
 ![Retail_Landing_page_part_3](https://user-images.githubusercontent.com/40518603/112862518-79268980-90d3-11eb-821c-8d2fe208e0da.png)
