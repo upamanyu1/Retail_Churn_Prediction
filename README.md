@@ -29,6 +29,7 @@ The prediction is at the bottom of the screen: The customer will again buy goods
 Tech Stack
 •	Front-End: HTML, CSS, Bootstrap
 •	Back-End: Flask
+• Database : MySql
 •	IDE: Jupyter notebook, Pycharm
 • Visualisation : Jupyter Notebook, Tableau Dashboard
 
