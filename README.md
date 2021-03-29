@@ -6,23 +6,22 @@ Data
 The data structure in the database.
 
 ![Retail_ER_diag](https://user-images.githubusercontent.com/40518603/112862186-2351e180-90d3-11eb-9a8d-31101a67e8df.png)
-
  
-
-
 The Dashboard of customer demographics
  
-
-
+![Dashboard_Retail_EDA](https://user-images.githubusercontent.com/40518603/112862337-4bd9db80-90d3-11eb-9721-15265adc6892.png)
 
 Landing Page of App
  
+![Retail_Landing_page](https://user-images.githubusercontent.com/40518603/112862424-5eecab80-90d3-11eb-8146-56782734272e.png)
+
+![Retail_Landing_page_part_2](https://user-images.githubusercontent.com/40518603/112862454-66ac5000-90d3-11eb-85c9-861f9e9ec7d7.png)
 
  
 Prediction 
 The prediction is at the bottom of the screen: The customer will again buy goods from the store
 
- 
+![Retail_Landing_page_part_3](https://user-images.githubusercontent.com/40518603/112862518-79268980-90d3-11eb-821c-8d2fe208e0da.png)
 
 Tech Stack
 •	Front-End: HTML, CSS, Bootstrap
