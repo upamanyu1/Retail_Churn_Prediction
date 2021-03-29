@@ -30,6 +30,8 @@ Tech Stack
 •	Front-End: HTML, CSS, Bootstrap
 •	Back-End: Flask
 •	IDE: Jupyter notebook, Pycharm
+• Visualisation : Jupyter Notebook, Tableau Dashboard
+
 
 How to run this app
 •	First create a virtual environment by using this command:
