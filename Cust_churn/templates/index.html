@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div style="color:blue">
+
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2>Predictive analysis for Customer Churn in Retail Supermarket</h2>
+            <h3>No of items bought</h3><input id="first" name="AvgCountItems" type="number ">
+            <h3>Approximate price spent on each item</h3><br><input id="second" name="AvgItemPrice" required="required">
+            <h3>Frequency of Trips</h3><input id="third" name="Trips" required="required">
+            <h3>Total Amount spent on shopping</h3><br><input id="fourth" name="TotalRevenue" required="required">
+            </select>
+            <h3>Gender Type</h3><br><select name="Cust_Sex" id="research" required="required">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <h3>Yearly Income of Customer</h3><input id="sixth" name="Cust_Income" required="required">
+            <h3>Age of Customer</h3><input id="seventh" name="Cust_Age" required="required">
+            <h3>No of Children of Customer</h3><input id="eighth" name="Cust_Children" required="required">
+            </select>
+            <h3>Maritial Status</h3><br><select name="Cust_Rel_Status" id="research1" required="required">
+                <option value="Unmarried">Unmarried</option>
+                <option value="Married">Married</option>
+            </select>
+            <h3>Ethinicity or Race</h3><br><select name="Race_Black" id="race" required="required">
+                <option value="Asian">Asian</option>
+                <option value="Black">Black</option>
+                <option value="Others">Others</option>
+                <option value="White">White</option>
+                <option value="Native Americans">Native Americans</option>
+            </select>
+            <br><br><button id="sub" type="submit ">Determine Customer Churn</button>
+            <br>
+
+        </form>
+        <br><br><h1>{{ prediction_texts }}</h1>
+    </div>
+
+   #<style>
+
+		body{
+			background-image:url(/static/markus-spiske-wL7pwimB78Q-unsplash.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.content{
+			background: white;
+			width: 50%;
+			padding: 40px;
+			margin: 100px auto;
+			font-family: calibri;
+			border-radius: 10px;
+		}
+
+		p{
+			font-size: 25px;
+			color: black;
+		}
+
+	#</style>
+
+
+    <style>
+        body {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research:hover {
+            background-color: coral;
+        }
+
+        #research1 {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research1:hover {
+            background-color: coral;
+        }
+        #race {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #race:hover {
+            background-color: coral;
+        }
+
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #resea:hover {
+            background-color: coral;
+        }
+
+        #sub {
+            width: 120px;
+            height: 65px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #sixth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #seventh {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #eighth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
